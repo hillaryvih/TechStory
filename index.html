@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TECH Story</title>
+  <meta name="description" content="TECH Story — Headsets, Teclados, Cadeiras Gamer e Utensílios para o seu setup perfeito." />
+
+  <!-- Favicon SVG (mesma logo do header) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect x='2' y='4' width='32' height='20' rx='3' fill='none' stroke='%233d6bc9' stroke-width='2.5'/%3E%3Cpath d='M13 24v5M23 24v5M10 29h16' stroke='%233d6bc9' stroke-width='2.2' stroke-linecap='round'/%3E%3Ccircle cx='26' cy='11' r='7' fill='%233d6bc9'/%3E%3Cpath d='M23 9.5h6M23.5 9.5l.6 4h4.8l.6-4' stroke='white' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="intro">
+    <div class="intro-inner">
+      <div class="intro-icon">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="32" height="20" rx="3" stroke="currentColor" stroke-width="2.2"/>
+          <path d="M13 24v5M23 24v5M10 29h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="26" cy="11" r="7" fill="currentColor" opacity="0.9"/>
+          <path d="M23 9.5h6M23.5 9.5l.6 4h4.8l.6-4" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h1>TECH <span>Story</span></h1>
+      <div class="intro-bar"></div>
+      <p class="intro-tag">Seu setup começa aqui</p>
+    </div>
+  </div>
+  <div id="overlay"></div>
+  <header id="header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#" class="logo" id="logo-link">
+        <svg class="logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="32" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M13 24v5M23 24v5M10 29h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="26" cy="11" r="7" fill="currentColor" opacity="0.85"/>
+          <path d="M23 9.5h6M23.5 9.5l.6 4h4.8l.6-4" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-text">TECH <span>Story</span></span>
+      </a>
+
+      <div class="nav-actions">
+        <!-- Tema -->
+        <button id="btn-theme" title="Alternar tema"></button>
+
+        <!-- Idioma -->
+        <button id="btn-lang" title="Trocar idioma">PT</button>
+
+        <!-- Favoritos -->
+        <button id="btn-fav" class="icon-btn" title="Favoritos">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+          <span class="badge" id="fav-badge">0</span>
+          <span class="lbl" data-i18n="navFav">Favoritos</span>
+        </button>
+
+        <!-- Carrinho -->
+        <button id="btn-cart" class="icon-btn" title="Carrinho">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+          </svg>
+          <span class="badge" id="cart-badge">0</span>
+          <span class="lbl" data-i18n="navCart">Carrinho</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-tag" data-i18n="heroTag">Periféricos &amp; Cadeiras Gamer</p>
+      <h1>
+        <span data-i18n="heroTitle">Tecnologia para elevar</span>
+        <span class="hl" data-i18n="heroTitleSpan">seu setup</span>
+      </h1>
+      <p data-i18n="heroSub">Periféricos gamer, teclados mecânicos e cadeiras premium selecionados com qualidade e estilo.</p>
+      <a href="#store" class="btn-primary" data-i18n="heroCta">Explorar Produtos</a>
+    </div>
+  </section>
+
+  <!--SOBRE-->
+  <section id="about">
+    <div class="container about-inner">
+
+      <div class="about-text reveal-l">
+        <h2 data-i18n="aboutTitle">Sobre a Tech Story</h2>
+        <p data-i18n="aboutText">Somos uma loja especializada em periféricos, acessórios e móveis para gamers e entusiastas de tecnologia. Com mais de 10 anos no mercado, entregamos produtos cuidadosamente selecionados para transformar seu setup.</p>
+        <p class="about-address" data-i18n="address">📍 Rua da Inovação, 1024 — São Paulo, SP — CEP 01310-000</p>
+
+        <!-- Contato -->
+        <div class="contact-block">
+          <h4 data-i18n="contactTitle">Contato</h4>
+          <p class="contact-item" data-i18n="contactEmail">✉️ contato@techstory.com.br</p>
+          <p class="contact-item" data-i18n="contactPhone">📞 (11) 99999-0000</p>
+          <p class="contact-item" data-i18n="contactInsta">📸 @techstory.oficial</p>
+        </div>
+
+        <span class="portfolio-badge" data-i18n="portfolioNote">Projeto fictício para portfólio de desenvolvimento web front-end.</span>
+      </div>
+
+      <div class="about-stats reveal-r">
+        <div class="stat">
+          <strong>10+</strong>
+          <span data-i18n="statYears">Anos no mercado</span>
+        </div>
+        <div class="stat">
+          <strong>64</strong>
+          <span data-i18n="statProducts">Produtos</span>
+        </div>
+        <div class="stat">
+          <strong>4</strong>
+          <span data-i18n="statCategories">Categorias</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!--LOJA-->
+  <section id="store">
+    <div class="container">
+
+      <div class="section-header reveal">
+        <h2 class="section-title" data-i18n="sectionTitle">Nossos Produtos</h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Abas de categoria -->
+      <div id="category-tabs" class="reveal">
+        <button class="cat-btn active" data-cat="all"         data-i18n="catAll">Todos</button>
+        <button class="cat-btn"        data-cat="headsets"    data-i18n="catHeadsets">Headsets</button>
+        <button class="cat-btn"        data-cat="keyboards"   data-i18n="catKeyboards">Teclados</button>
+        <button class="cat-btn"        data-cat="chairs"      data-i18n="catChairs">Cadeiras Gamer</button>
+        <button class="cat-btn"        data-cat="accessories" data-i18n="catAccessories">Utensílios Gamer</button>
+      </div>
+
+      <!-- Grid ( via JS) -->
+      <div id="products-grid"></div>
+    </div>
+  </section>
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <svg viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="4" width="32" height="20" rx="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M13 24v5M23 24v5M10 29h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <circle cx="26" cy="11" r="7" fill="currentColor" opacity="0.85"/>
+          <path d="M23 9.5h6M23.5 9.5l.6 4h4.8l.6-4" stroke="white" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>TECH Story</span>
+      </div>
+      <p data-i18n="footerDesc">Loja fictícia criada para fins de portfólio. Nenhum produto é comercializado de verdade.</p>
+      <p data-i18n="footerRights">© 2026 TECH Story. Todos os direitos reservados.</p>
+      <p class="footer-made" data-i18n="footerMade">Feito por Hillary Vieira</p>
+    </div>
+  </footer>
+  <div id="toast"><span id="toast-msg"></span></div>
+  <aside id="cart-drawer" class="drawer">
+    <div class="drawer-header">
+      <h3 data-i18n="cartTitle">Meu Carrinho</h3>
+      <button class="btn-close" id="close-cart">✕</button>
+    </div>
+    <div id="cart-items" class="drawer-body"></div>
+    <div class="cart-footer" id="cart-footer">
+      <!-- Total -->
+      <div class="cart-total-box">
+        <div class="total-row main">
+          <span data-i18n="cartTotal">Total</span>
+          <strong id="cart-total-cash">R$ 0,00</strong>
+        </div>
+        <div class="total-row install">
+          <span class="install-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/>
+            </svg>
+            <span data-i18n="cartInstall">ou 12x de</span>
+          </span>
+          <strong id="cart-total-install">R$ 0,00</strong>
+          <span data-i18n="cartNoInterest">sem juros</span>
+        </div>
+      </div>
+      <!-- Cupom -->
+      <div class="coupon-box">
+        <input type="text" id="coupon-input" data-i18n-ph="cartCoupon" placeholder="Inserir cupom de desconto" />
+        <button id="btn-coupon" data-i18n="cartApply">Aplicar</button>
+      </div>
+      <p id="coupon-msg" class="coupon-msg" data-i18n="cartCouponMsg">Cupom aplicado apenas para demonstração!</p>
+      <button id="btn-checkout" class="btn-primary full" data-i18n="cartCheckout">Finalizar Compra</button>
+    </div>
+  </aside>
+
+  <!--FAVORITOS-->
+  <aside id="fav-drawer" class="drawer">
+    <div class="drawer-header">
+      <h3 data-i18n="favTitle">Meus Favoritos</h3>
+      <button class="btn-close" id="close-fav">✕</button>
+    </div>
+    <div id="fav-items" class="drawer-body"></div>
+  </aside>
+
+  <!--MODAL — Finalizar Compra-->
+  <div id="checkout-modal" class="modal-wrap">
+    <div class="modal-box">
+      <div class="modal-icon">🛒</div>
+      <h3>Tech Story</h3>
+      <p data-i18n="cartCheckoutMsg">Este é apenas um site fictício desenvolvido para portfólio de desenvolvimento web front-end.
+
+Nenhuma compra real será processada.</p>
+      <button class="btn-primary" id="btn-modal-ok">OK</button>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="src/temas.js"></script>
+  <script src="src/traducoes.js"></script>
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
