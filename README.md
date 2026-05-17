@@ -30,8 +30,8 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 
 ##  Tecnologias
 
-|---|---|
-|<strong> Linguagens </strong>| HTML5, CSS3, JavaScript |
+
+|<strong> Linguagens </strong>| HTML5, CSS3, JavaScript |<br>
 |<strong> Armazenamento </strong>| localStorage |
 
 ---
@@ -45,21 +45,15 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 | Tablet pequeno (480–720px) | 2 colunas |
 | Mobile (<480px) | 1 coluna |
 
-```
-
-# TechStory
-
-> Gaming peripherals e-commerce built with pure HTML, CSS and JavaScript.
-
----
-
-</div>
 
 <details>
 <summary>🇺🇸 English</summary>
 
 Fictional online store project for front-end portfolio, simulating products, cart and favorites.
 
+> Gaming peripherals e-commerce built with pure HTML, CSS and JavaScript.
+
+---
 ---
 
 ## Features
@@ -77,9 +71,8 @@ Fictional online store project for front-end portfolio, simulating products, car
 ## Technologies
 
 |---|---|
-|<strong> Languages </strong>| HTML5, CSS3, JavaScript |
+|<strong> Languages </strong>| HTML5, CSS3, JavaScript | 
 |<strong> Storage </strong>| localStorage |
-
 ---
 ## Responsiveness
 
