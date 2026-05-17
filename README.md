@@ -1,11 +1,13 @@
 # TechStory
-
-> E-commerce de periféricos gamer feito com HTML, CSS e JavaScript puro.
+ 
 <details>
 ---
 <summary>🇧🇷 Português</summary>
 
 Projeto fictício de loja online para portfólio front-end, simulando produtos, carrinho e favoritos.
+
+
+> E-commerce de periféricos gamer feito com HTML, CSS e JavaScript puro.
 
 ---
 
