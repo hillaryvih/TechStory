@@ -48,7 +48,7 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 
 <details>
 <summary>🇺🇸 English</summary>
-
+</div>
 Fictional online store project for front-end portfolio, simulating products, cart and favorites.
 
 > Gaming peripherals e-commerce built with pure HTML, CSS and JavaScript.
