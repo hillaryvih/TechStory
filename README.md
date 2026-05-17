@@ -1,11 +1,8 @@
-
 # TechStory
 
 > E-commerce de periféricos gamer feito com HTML, CSS e JavaScript puro.
 
 ---
-
-</div>
 
 <details open>
 <summary>🇧🇷 Português</summary>
@@ -14,29 +11,27 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 
 ---
 
----
-
 ## Funcionalidades
 
 | Feature | Descrição |
 |---|---|
-|  Lista de produtos | Catálogo de periféricos gamer renderizado dinamicamente |
-|  Carrinho funcional | Adicionar, remover e atualizar quantidade |
-|  Favoritos | Marcar e gerenciar produtos favoritos |
+| Lista de produtos | Catálogo de periféricos gamer renderizado dinamicamente |
+| Carrinho funcional | Adicionar, remover e atualizar quantidade |
+| Favoritos | Marcar e gerenciar produtos favoritos |
 | Tema claro/escuro | Alterna com preferência salva no navegador |
-|  PT / EN | Troca de idioma ao vivo, sem recarregar |
+| PT / EN | Troca de idioma ao vivo, sem recarregar |
 
 ---
 
-##  Tecnologias
+## Tecnologias
 
-
-|<strong> Linguagens </strong>| HTML5, CSS3, JavaScript |<br>
-|<strong> Armazenamento </strong>| localStorage |
+| Linguagens | HTML5, CSS3, JavaScript |
+|---|---|
+| Armazenamento | localStorage |
 
 ---
 
-##  Responsividade
+## Responsividade
 
 | Tela | Colunas de produto |
 |---|---|
@@ -45,24 +40,26 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 | Tablet pequeno (480–720px) | 2 colunas |
 | Mobile (<480px) | 1 coluna |
 
+</details>
+
+---
 
 <details>
 <summary>🇺🇸 English</summary>
-</div>
+
 Fictional online store project for front-end portfolio, simulating products, cart and favorites.
 
 > Gaming peripherals e-commerce built with pure HTML, CSS and JavaScript.
 
----
 ---
 
 ## Features
 
 | Feature | Description |
 |---|---|
-|  Product list | Gaming peripherals catalog rendered dynamically |
-|  Working cart | Add, remove and update quantity |
-|  Favorites | Save and manage favorite products |
+| Product list | Gaming peripherals catalog rendered dynamically |
+| Working cart | Add, remove and update quantity |
+| Favorites | Save and manage favorite products |
 | Light/dark theme | Toggle with preference saved in browser |
 | PT / EN | Live language switch without reloading |
 
@@ -70,10 +67,12 @@ Fictional online store project for front-end portfolio, simulating products, car
 
 ## Technologies
 
+| Languages | HTML5, CSS3, JavaScript |
 |---|---|
-|<strong> Languages </strong>| HTML5, CSS3, JavaScript | 
-|<strong> Storage </strong>| localStorage |
+| Storage | localStorage |
+
 ---
+
 ## Responsiveness
 
 | Screen | Product columns |
@@ -83,7 +82,4 @@ Fictional online store project for front-end portfolio, simulating products, car
 | Small tablet (480–720px) | 2 columns |
 | Mobile (<480px) | 1 column |
 
----
-
 </details>
-```
