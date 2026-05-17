@@ -1,95 +1,79 @@
-```markdown
-<h1 align="center">TechStory</h1>
+div align="center">
 
-<p align="center">
-  <img alt="README PT/EN" src="https://img.shields.io/badge/README-PT%20%7C%20EN-blue?style=for-the-badge" />
-</p>
+# TechStory
 
-<p align="center">
-  E-commerce de periféricos gamer feito com HTML, CSS e JavaScript puro.<br>
-  Gaming peripherals front-end e-commerce built with pure HTML, CSS and JavaScript.
-</p>
+> E-commerce de periféricos gamer feito com HTML, CSS e JavaScript puro.
 
 ---
 
-## 📌 Sobre o projeto / About the project
+</div>
 
-**PT**: Projeto fictício de loja online para portfólio front-end, simulando produtos, carrinho e favoritos.
+<details open>
+<summary>🇧🇷 Português</summary>
 
-**EN**: Fictional online store project for front-end portfolio, simulating products, cart and favorites.
-
----
-
-## 🎯 Objetivo / Purpose
-
-**PT**: Praticar JavaScript puro, manipulação de DOM, organização de código e persistência no navegador.
-
-**EN**: Practice vanilla JavaScript, DOM manipulation, code organization and browser storage.
+Projeto fictício de loja online para portfólio front-end, simulando produtos, carrinho e favoritos.
 
 ---
 
-## ✨ Funcionalidades / Features
+## 📁 Estrutura de pastas
+TechStory/ │ ├── index.html ← Página principal ├── style.css ← Todos os estilos (tema claro/escuro) ├── script.js ← Orquestrador principal (inicializa módulos) │ └── src/ ← Módulos de lógica ├── products.js ← Lista de produtos e renderização ├── cart.js ← Lógica do carrinho ├── favorites.js ← Favoritos do usuário ├── theme.js ← Toggle tema claro/escuro └── lang.js ← Toggle idioma PT/EN
 
-| PT | EN |
+
+---
+
+## ✨ Funcionalidades
+
+| Feature | Descrição |
 |---|---|
-| Lista de produtos | Product list |
-| Carrinho funcional | Working cart |
-| Favoritos | Favorites |
-| Tema claro/escuro | Light/dark theme |
-| Idioma PT/EN | PT/EN language |
+| 🛍️ Lista de produtos | Catálogo de periféricos gamer renderizado dinamicamente |
+| 🛒 Carrinho funcional | Adicionar, remover e atualizar quantidade |
+| ❤️ Favoritos | Marcar e gerenciar produtos favoritos |
+| 🌞/🌙 Tema claro/escuro | Alterna com preferência salva no navegador |
+| 🌍 PT / EN | Troca de idioma ao vivo, sem recarregar |
 
 ---
 
-## 🛠️ Tecnologias / Tech Stack
+## 🔧 Tecnologias
 
-- HTML5
-- CSS3
-- JavaScript
-- localStorage
-
----
-
-## 📁 Estrutura do projeto / Project structure
-
-```
-TechStory/
-├── index.html        → página principal / main page
-├── style.css         → estilos / styles
-├── script.js         → lógica / logic
-└── /src              → módulos (produtos, temas, tradução) / modules (products, themes, translation)
-```
+| Categoria | Ferramentas |
+|---|---|
+| Linguagens | HTML5, CSS3, JavaScript (ES6+) |
+| Armazenamento | localStorage |
 
 ---
 
-## 🚀 Como usar / Usage
+## 📱 Responsividade
 
-**PT**: Abra o `index.html` no navegador. Navegue pelos produtos, adicione ao carrinho, marque favoritos e alterne entre temas e idiomas.
-
-**EN**: Open `index.html` in your browser. Browse products, add to cart, mark favorites, and switch between themes and languages.
-
----
-
-## 🧠 O que eu aprendi / What I learned
-
-**PT**: JavaScript puro, manipulação de DOM, organização de código e persistência com localStorage.
-
-**EN**: Vanilla JavaScript, DOM manipulation, code organization and browser storage with localStorage.
+| Tela | Colunas de produto |
+|---|---|
+| Desktop (>1024px) | 4 colunas |
+| Tablet (720–1024px) | 3 colunas |
+| Tablet pequeno (480–720px) | 2 colunas |
+| Mobile (<480px) | 1 coluna |
 
 ---
 
-## 📬 Contato / Contact
+## 🎯 Objetivo
 
-**Developer**: Hillary Vieira
-
-- LinkedIn: [seu-linkedin]
-- GitHub: [seu-github]
-- E-mail: [seu-email]
+Praticar JavaScript puro, manipulação de DOM, organização de código e persistência no navegador.
 
 ---
 
-<p align="center">
-  Feito com ❤️ por <strong>Hillary Vieira</strong> / Made with ❤️ by <strong>Hillary Vieira</strong>
-</p>
-```
+## ▶️ Rodando localmente
 
-**É só copiar tudo de dentro do bloco acima e colar no seu `README.md` no VS Code.** ✅
+```bash
+git clone https://github.com/HillaryVieira/TechStory
+cd TechStory
+Abra o index.html no navegador.
+
+🧠 Desafios e lições aprendidas
+Estruturar o código em módulos dentro de /src foi o maior desafio, já que JavaScript puro não tem um sistema de módulos nativo no navegador
+Aprendi a importância de separar responsabilidades entre arquivos mesmo sem frameworks
+Foi necessário reorganizar a lógica do carrinho e dos favoritos para evitar duplicidade de código
+A implementação do tema claro/escuro exigiu atenção ao CSS e ao localStorage para manter a preferência do usuário
+📌 Próximos passos
+ Novos filtros de produtos por categoria e preço
+ Checkout simulado com resumo de pedido
+ Responsividade aprimorada para mobile
+🇺🇸 English
+Feito com 💙 por Hillary Vieira
