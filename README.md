@@ -1,4 +1,3 @@
-div align="center">
 
 # TechStory
 
@@ -15,34 +14,29 @@ Projeto fictício de loja online para portfólio front-end, simulando produtos, 
 
 ---
 
-## 📁 Estrutura de pastas
-TechStory/ │ ├── index.html ← Página principal ├── style.css ← Todos os estilos (tema claro/escuro) ├── script.js ← Orquestrador principal (inicializa módulos) │ └── src/ ← Módulos de lógica ├── products.js ← Lista de produtos e renderização ├── cart.js ← Lógica do carrinho ├── favorites.js ← Favoritos do usuário ├── theme.js ← Toggle tema claro/escuro └── lang.js ← Toggle idioma PT/EN
-
-
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 | Feature | Descrição |
 |---|---|
-| 🛍️ Lista de produtos | Catálogo de periféricos gamer renderizado dinamicamente |
-| 🛒 Carrinho funcional | Adicionar, remover e atualizar quantidade |
-| ❤️ Favoritos | Marcar e gerenciar produtos favoritos |
-| 🌞/🌙 Tema claro/escuro | Alterna com preferência salva no navegador |
-| 🌍 PT / EN | Troca de idioma ao vivo, sem recarregar |
+|  Lista de produtos | Catálogo de periféricos gamer renderizado dinamicamente |
+|  Carrinho funcional | Adicionar, remover e atualizar quantidade |
+|  Favoritos | Marcar e gerenciar produtos favoritos |
+| Tema claro/escuro | Alterna com preferência salva no navegador |
+|  PT / EN | Troca de idioma ao vivo, sem recarregar |
 
 ---
 
-## 🔧 Tecnologias
+##  Tecnologias
 
-| Categoria | Ferramentas |
 |---|---|
-| Linguagens | HTML5, CSS3, JavaScript (ES6+) |
-| Armazenamento | localStorage |
+|<strong> Linguagens </strong>| HTML5, CSS3, JavaScript |
+|<strong> Armazenamento </strong>| localStorage |
 
 ---
 
-## 📱 Responsividade
+##  Responsividade
 
 | Tela | Colunas de produto |
 |---|---|
@@ -51,29 +45,52 @@ TechStory/ │ ├── index.html ← Página principal ├── style.css �
 | Tablet pequeno (480–720px) | 2 colunas |
 | Mobile (<480px) | 1 coluna |
 
+```
+
+# TechStory
+
+> Gaming peripherals e-commerce built with pure HTML, CSS and JavaScript.
+
 ---
 
-## 🎯 Objetivo
+</div>
 
-Praticar JavaScript puro, manipulação de DOM, organização de código e persistência no navegador.
+<details>
+<summary>🇺🇸 English</summary>
+
+Fictional online store project for front-end portfolio, simulating products, cart and favorites.
 
 ---
 
-## ▶️ Rodando localmente
+## Features
 
-```bash
-git clone https://github.com/HillaryVieira/TechStory
-cd TechStory
-Abra o index.html no navegador.
+| Feature | Description |
+|---|---|
+|  Product list | Gaming peripherals catalog rendered dynamically |
+|  Working cart | Add, remove and update quantity |
+|  Favorites | Save and manage favorite products |
+| Light/dark theme | Toggle with preference saved in browser |
+| PT / EN | Live language switch without reloading |
 
-🧠 Desafios e lições aprendidas
-Estruturar o código em módulos dentro de /src foi o maior desafio, já que JavaScript puro não tem um sistema de módulos nativo no navegador
-Aprendi a importância de separar responsabilidades entre arquivos mesmo sem frameworks
-Foi necessário reorganizar a lógica do carrinho e dos favoritos para evitar duplicidade de código
-A implementação do tema claro/escuro exigiu atenção ao CSS e ao localStorage para manter a preferência do usuário
-📌 Próximos passos
- Novos filtros de produtos por categoria e preço
- Checkout simulado com resumo de pedido
- Responsividade aprimorada para mobile
-🇺🇸 English
-Feito com 💙 por Hillary Vieira
+---
+
+## Technologies
+
+|---|---|
+|<strong> Languages </strong>| HTML5, CSS3, JavaScript |
+|<strong> Storage </strong>| localStorage |
+
+---
+## Responsiveness
+
+| Screen | Product columns |
+|---|---|
+| Desktop (>1024px) | 4 columns |
+| Tablet (720–1024px) | 3 columns |
+| Small tablet (480–720px) | 2 columns |
+| Mobile (<480px) | 1 column |
+
+---
+
+</details>
+```
